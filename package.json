@@ -1,0 +1,29 @@
+{
+  "name": "patchwork",
+  "version": "1.0.0",
+  "description": "Patchwork Table Top Game implementation",
+  "main": "index.html",
+  "window": {
+    "width": 800,
+    "height": 600
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "vinyl": "^2.0.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "pixi.js": "^4.0.3"
+  }
+}
